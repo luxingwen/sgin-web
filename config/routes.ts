@@ -18,4 +18,10 @@ export default [
         path: '/table',
         component: './Table',
     },
+    {
+        name: ' 登录',
+        path: '/login',
+        component: './User/Login',
+        layout: false,
+    },
 ]

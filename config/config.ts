@@ -1,6 +1,7 @@
 import { defineConfig } from '@umijs/max';
 import proxy from './proxy';
 import routes from './routes';
+import { join } from 'path';
 
 export default defineConfig({
   favicons: ['/github-logo.jpg'],

@@ -9,6 +9,7 @@ import Cookies from 'js-cookie';
 import { Question, SelectLang } from '@/components/RightContent';
 import { AvatarDropdown, AvatarName } from '@/components/RightContent/AvatarDropdown';
 import Footer from '@/components/Footer';
+import "./assets/css/app.css";
 
 
 export async function getInitialState(): Promise<{ name: string }> {
